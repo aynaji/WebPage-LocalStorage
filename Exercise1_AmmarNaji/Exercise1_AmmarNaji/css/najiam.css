@@ -1,0 +1,35 @@
+.grid-container{
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 1fr 1fr;
+
+}
+
+.item1{
+    background-color:
+    ghostwhite;
+}
+
+.item2{
+    background-color: azure;
+
+}
+.item3{
+    background-color: darkorange;
+}
+
+body {
+    background-color:antiquewhite;  
+}
+
+.grid-container > div {
+     text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.display {
+    border-bottom: 6px solid red;
+    background-color: lightgrey;
+  }
